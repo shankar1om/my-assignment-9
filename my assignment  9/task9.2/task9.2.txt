@@ -1,0 +1,40 @@
+2.Properties in flexbox layout model:
+
+>1.justify-content: justify-content is the property of flex box that defines alignment of elements 
+   in flexbox along main axis.
+   we can give several values to justify-content-
+    1.justify-content : flex-start; ->it is by default value used to align the element at the
+                                     starting of main axis od flexbox.
+    2.justify-content : flex-end;-> it is value used to align the element at the
+                                      end of main axis of flexbox.
+    3.justify-content : center;-> it is value used to align the element at the
+                                      center of main axis of flexbox.
+    4.justify-content : space-between;-> it is value used to give equal space between
+                                         the elements while space between box wall of
+                                         both sides and first and last elements are not
+                                         included.
+    5.justify-content : space-around;->  it is value used to give equal space between
+                                         the elements while space between box wall of
+                                         both sides and first and last elements are
+                                         included.
+
+  2.align-items: align-items is the property of flex box that defines alignment of elements 
+      in flexbox along cross axis.
+   ..align-items having same values as justify-content but they work along cross axis.
+
+  3.gap: this property used to give manual spacing between the elements.
+
+  4.flex-direction: this property used to define main axis in flexbox model.
+    1.flex-direction:row;-> row value defines our horizontal axis is our main axis
+      and vertical axis is our cross axis.
+    2.flex-direction:coloumn;->coloumn value defines our vertical axis is our main axis
+      and horizontal axis is our cross axis.
+
+   5.flex-wrap: this value defines whether the flex items are forced to be in a single line
+     or can be allowed to come into multiple lines.
+     flex-wrap has several values:
+     1.flex-wrap: nowrap;-> this value forced to be elements in single line and this is 
+       by default value.
+     2.flex-wrap: wrap;-> this value allow to come elements into multiple lines.
+     3.flex-wrap: reverse;-> this value allow to come elements into multiple lines but opposite
+       to the direction of flexbox

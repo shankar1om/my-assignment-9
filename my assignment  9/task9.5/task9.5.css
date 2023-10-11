@@ -1,0 +1,266 @@
+.container{
+    width: 1460px;
+    height: 1187px;
+    border: 1px solid black;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+
+}
+.container .box1{
+    width: 696px;
+    height: 1136px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    order: 1;
+   
+  
+
+}
+.container .box1 .irctc{
+    margin: -1px;
+    flex-grow: 1;
+}
+.container .logo{
+    width: 180.31px;
+    height: 93.11px;
+    display: flex;
+    position: absolute;
+    top: 50.69px;
+    left: 101.39px;
+}
+.container .logo .irctclogo{
+    margin: 12px;
+    flex-grow: 1;
+}
+.container .menu{
+    width: 328.81px;
+    height: 81.88px;
+    position: absolute;
+    top: 50.69px;
+    left: 398.46px;
+    
+   
+}
+.menu .frame5{
+    display: flex;
+    gap: 20px;
+    font-family:'Inter', sans-serif ;
+    font-weight: 500;
+    line-height: 18.41px;
+    color: #333333;
+    font-size: 15.21px;
+    margin-top: -15px;
+    margin-bottom: 2px;
+    
+}
+.menu .frame6{
+    display: flex;
+    justify-content: space-between;
+    font-family:'Inter', sans-serif ;
+    font-weight: 500;
+    line-height: 18.41px;
+    color: #333333;
+   
+}
+.frame6 .agent{
+    width: 118.42px;
+    height: 38.28px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+
+}
+.frame6 .register{
+    width: 91.42px;
+    height: 38.28px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.frame6 .login{
+    width: 71.42px;
+    height: 38.28px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    background-color: #FB792B;  
+    border-radius: 5px;
+}
+
+.container .header h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 3em;
+    font-weight: 700;
+}
+.header{
+    position: absolute;
+    top: 223.06px;
+    left: 101.39px;
+}
+span{
+    font-family: 'Inter', sans-serif;
+    font-size: 32.44px;
+    font-weight: 500;
+    line-height: 39.27px;
+}
+.container .confirmation{
+    width: 603.22px;
+    height: 44.61px;
+   display: flex;
+    position: absolute;
+    top: 518.1px;
+    left: 89.39px;
+    align-items: center;
+    justify-content: space-around;
+}
+.confirmation .book{
+    border: 1px solid #333333;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 18.2px;
+    padding-top: 10px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
+    background-color: #213D77;
+    border-radius: 5px;
+    color: #FFFFFF;
+
+}
+.fa-solid{
+    margin: 5px;
+}
+.confirmation .pnr{
+    border: 1px solid #333333;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 18.2px;
+    padding-top: 10px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
+}
+.fa-check{
+    margin: 5px;
+}
+.confirmation .charts{
+    border: 1px solid #333333;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 18.2px;
+    padding-top: 10px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
+}
+.fa-chart-simple{
+    margin: 5px;
+}
+.container .searchtrain{
+width: 618.47px;
+height: 158.6px;
+border: 5px solid #3333330f;
+border-radius: 12px;
+position: absolute;
+top: 610.1px;
+left: 101.39px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+
+.searchtrain .smallbox{
+width: 48.69px;
+height: 48.69px;
+border: 1px solid #00000047;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.font{
+font-family: 'Inter', sans-serif;
+
+}
+.container #availibility{
+width: 618.47px;
+height: 158.6px;
+border: 5px solid #3333330f;
+position: absolute;
+top: 785.97px;
+left: 101.39px;
+display: flex;
+justify-content: space-around;
+border-radius: 12px;
+}
+
+.fa-calendar-days{
+margin: 10px;
+}
+.frame5 .date{
+margin-left: 28px;
+margin-top: -6px;
+}
+.frame5 .schedule{
+margin-top: -5px;
+margin-top: 8px;
+}
+
+.frame6 .kota{
+padding-left: 30px;
+margin-top: -7px;
+}
+.frame6 .seattype{
+margin-top: 7px;
+}
+.frame6 .seattype .fa-border-all{
+margin: 12px;
+}
+.section .class{
+margin-top: 20px;
+margin-left: -15px;
+
+}
+.fa-circle-dot{
+margin-right: 7px;
+}
+.container .searchbutton{
+position: absolute;
+width: 618.47px;
+height: 81.11px;
+top: 990.56px;
+left: 101.39px;
+background-color: #01BB0A;
+border-radius: 12px;
+}
+.searchbutton .search{
+color: #FFFFFF;
+font-family: 'Inter', sans-serif;
+font-weight: 900;
+font-size: 25.35px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+
+
+
+}
+.fa-arrow-right-long{
+    margin-left: 2px;
+    color: #ffffffc9;
+}

@@ -1,0 +1,38 @@
+1.The main difference between css flex box layout model and css grid layout model:
+  > css flexbox layout model:
+    ..The CSS Flexbox offers a one-dimensional layout. It is helpful in allocating and aligning
+      the space among items in a container.
+    ..To get started with flexbox we need to define display : flex ; in style.
+    ..It is the display property having much more capability as compare to other display property
+      which makes developers works easy.
+    ..It works in one directon, only we decide in which direction display flex will work. 
+    ..flex-dirextion : row ; -> display flex works in horizontal direction(by default) .
+      flex-dirextion : coloumn ; -> display flex works in vertical direction .
+    ..flex majorly works in 2 axis main axis and  cross axis.
+    ..for main axis we use justify-content, and  for main axis we use align-items property.
+    ..flexbox supports content first.
+
+    css grid layout model:
+    ..CSS Grid Layout, is a two-dimensional grid-based layout system with rows and columns, making 
+      it easier to design web pages without having to use floats and positioning. Like tables, grid 
+      layout allow us to align elements into columns and rows.
+    ..To get started with grid we need to define display : grid ; in style.
+    ..flexbox supports layout first.
+    
+    the main difference between flex and grid:
+    ..Grid is made for a two-dimensional layout while Flexbox is for one. This means Flexbox can work 
+      on either row or columns at a time, but Grids can work on both.
+    ..Flexbox gives us more flexibility while working on either row or column.
+    ..Grid gives us more flexibility irrrespective of row and coloumn.
+
+    when would we choose to use one over other:
+    flexbox:
+    ..Flexbox is used when we have a small layout to design, and have few rows or a few columns.
+    ..lexbox is the ideal layout system to create web pages if we don’t know exactly how our
+      content is going to look, so if we want everything just to fit in box, Flexbox is perfect choice.
+    grid:
+    ..we use grid when we have more complex design to use.
+    .. When we already have our layout design structure, it’s easier to build with CSS Grid, and the 
+       two-dimensional layout . it helps us a lot because we are able to use rows and columns together,
+       and position the elements the way we want.
+    
